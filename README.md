@@ -9,3 +9,14 @@ Screenplay pattern, Serenity JS, Cucumber, Typescript
 
 2. Run the the react application in your local (Please see instructions for how to run the app in the app repository).
 
+## Run tests
+
+Run the following command ``` npm test ```
+
+## Check the Serenity HTML report
+
+Go to the following path after run your tests: ``` \target\site\serenity ``` and open the index.html file
+
+## Cucumber Features
+
+You can find all the cucumber scenarios in the following path: ``` \features ```
