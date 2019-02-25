@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+	  "target": "es6",
+	  "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": false,
+    "noStrictGenericChecks": true, //this solve the problem errors when transpiling
+		"outDir": "JSFilesLocation",
+		"typeRoots": [
+			"./node_modules/@types"
+	]
+	},
+	"exclude": [
+	  "node_modules"
+	]
+}

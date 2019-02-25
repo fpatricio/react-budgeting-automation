@@ -1,0 +1,39 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "Screenplay pattern, Serenity JS, Cucumber, Typescript",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf target",
+    "preprotractor": "webdriver-manager update",
+    "protractor": "protractor conf.js",
+    "pretest": "serenity update",
+    "report": "serenity run",
+    "test": "failsafe clean protractor report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpatricio/react-budgeting-automation.git"
+  },
+  "author": "Francisco Patricio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpatricio/react-budgeting-automation/issues"
+  },
+  "homepage": "https://github.com/fpatricio/react-budgeting-automation#readme",
+  "devDependencies": {
+    "@types/chai": "4.1.4",
+    "@types/chai-as-promised": "7.1.0",
+    "@types/cucumber": "1.3.3",
+    "protractor": "^5.4.0",
+    "typescript": "^3.0.1",
+    "chai": "4.1.2",
+    "chai-as-promised": "7.1.1",
+    "cucumber": "1.3.3",
+    "npm-failsafe": "^0.4.1",
+    "serenity-cli": "^0.9.0",
+    "serenity-js": "^1.10.13",
+    "ts-node": "^7.0.0",
+    "tslint": "5.10.0"
+  }
+}

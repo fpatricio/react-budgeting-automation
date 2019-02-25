@@ -1,0 +1,6 @@
+{
+    "base_app_url": "http://localhost:8000",
+    "budget": "/budget",
+    "inflow_outflow": "/reports/inflow-outflow",
+    "spending": "/reports/spending"
+}
