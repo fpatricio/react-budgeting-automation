@@ -13,6 +13,8 @@ You need to have installed node.js in your machine (you can download the latest 
 
 2. Run the the react application in your local (Please see instructions for how to run the app in the app repository).
 
+3. Go inside the e2e folder and run this command: ``` npm install ```
+
 ## Run tests
 
 Run the following command ``` npm test ```
