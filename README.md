@@ -33,6 +33,35 @@ You can find all the cucumber scenarios in the following path: ``` \features ```
 
 ## Test Plan 
 
+### Test Objectives
+
+- The objective of the test is to verify that the funcionality of the application: https://budget.modus.app/budget works accordingly to the specifictions.
+- The test will execute and verify test scenarios and the test automated scripts.
+- The objective of the test will also be to identify, fix and retest all high and medium severity defects or bugs.
+
+### Test Strategy
+
+- Exploratory Testing wil be carried out in several browsers.
+- Functional testing execution, testing team will use preloaded data which is available on the system at the time of execution.
+- Automated tests, there are 3 scenarios that are automated for this project. We will use only Chrome browser for this automation.
+
+### Test Environment
+
+- https://budget.modus.app/budget
+
+### Browsers to Test
+#### Functional testing consider the following browsers:
+ 
+ - Chrome latest version.
+ - Safari latest version.
+ - Firefox latest version.
+ - IE 11 latest version.
+ - Edge latest version.
+
+#### Automation testing consider the following browsers:
+
+ - Chrome latest version.
+
 ### Scenario 1: Adding an Outflow and Inflow on the Budget app and validate the new amount of the Working Balance Calculation.
 Open the budget app in chrome browser: https://budget.modus.app/budget
 
