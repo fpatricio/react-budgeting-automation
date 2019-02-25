@@ -62,9 +62,25 @@ You can find all the cucumber scenarios in the following path: ``` \features ```
 
  - Chrome latest version.
 
-### Scenario 1: Adding an Outflow and Inflow on the Budget app and validate the new amount of the Working Balance Calculation.
-Open the budget app in chrome browser: https://budget.modus.app/budget
+### Test Cases
 
+ - Adding an Outflow on the Budget app and validate the new amount of the Working Balance Calculation.
+ - Adding an Inflow on the Budget app and validate the new amount of the Working Balance Calculation.
+ - Adding an Outflow and Inflow on the Budget app and validate the new amount of the Working Balance Calculation. (FA)
+ - Update an existing Outflow on the Budget app and validate the new amount of the Working Balance Calculation. (FA)
+ - Update an existing Inflow on the Budget app and validate the new amount of the Working Balance Calculation.
+ - Update an existing Outflow and Inflow on the Budget app and validate the new amount of the Working Balance Calculation.
+ - Update Inflow, delete an Outflow on the Budget app and validate the new amount of the Working Balance Calculation. (FA)
+ - Update Outflow, delete an Inflow on the Budget app and validate the new amount of the Working Balance Calculation.
+ 
+  ( FA = For Automation )
+  
+
+### Test Cases for automation
+
+#### Scenario 1: Adding an Outflow and Inflow on the Budget app and validate the new amount of the Working Balance Calculation.
+
+- Open the budget app in chrome browser: https://budget.modus.app/budget
 - Select an Outflow category (Misc)
 - Add the description of the Outflow category (like “Test Outflow”)
 - Add a value for the Outflow category like 350
@@ -76,7 +92,7 @@ Open the budget app in chrome browser: https://budget.modus.app/budget
 - Validate, verify and show in console the new working Balance value is correct.
 
 
-### Scenario 2: Update Outflow category, description and value on the Budget app and validate the new amount of the Working Balance Calculation.
+#### Scenario 2: Update Outflow category, description and value on the Budget app and validate the new amount of the Working Balance Calculation.
 
 - Open the budget app in chrome browser: https://budget.modus.app/budget
 - Click on the Outflow category Misc row with the description “Test Outflow”
@@ -89,9 +105,9 @@ Open the budget app in chrome browser: https://budget.modus.app/budget
 - Validate and show in console the new working Balance value is correct.
 
 
-### Scenario 3: Update Inflow category description and value, delete an Outflow category on the Budget app and validate the new amount of the Working Balance Calculation.
-Open the budget app in chrome browser: https://budget.modus.app/budget
+#### Scenario 3: Update Inflow category description and value, delete an Outflow category on the Budget app and validate the new amount of the Working Balance Calculation.
 
+- Open the budget app in chrome browser: https://budget.modus.app/budget
 - Click on the Inflow category Income row with the description “Test Income”
 - Click on the Dropdown Category Income
 - Change the description from “Test Income” to “Test Income True”
