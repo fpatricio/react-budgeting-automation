@@ -58,3 +58,4 @@ Click on the Outflow category Beauty row with the description “Test Beauty”
 Click on the Delete button
 Validate and show in console the new working Balance value is correct.
 
+
