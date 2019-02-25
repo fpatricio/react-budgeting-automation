@@ -1,5 +1,9 @@
 # react-budgeting-automation
-Screenplay pattern, Serenity JS, Cucumber, Typescript, Protractor
+- Screenplay pattern 
+- Serenity JS
+- Cucumber
+- Typescript
+- Protractor
 
 # Automation for react Aplication: https://github.com/ModusCreateOrg/budgeting-sample-app-webpack2
 
